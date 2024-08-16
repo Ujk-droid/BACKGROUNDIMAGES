@@ -1,0 +1,300 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+}
+
+header {
+  background-image: url(assets/bu3.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: color;
+  background-color: rgba(6, 6, 6, 0.801);
+  margin: bottom 0;
+}
+
+  nav {
+    text-align: inline;
+  }
+
+  .top-nav {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 8px 15px;
+    gap: 15px;
+  }
+
+  .logo {
+    position: absolute;
+    left: 15px;
+    top: 10px;
+  }
+
+  .top-nav .one {
+    padding-top: 5px;
+    padding: 5px 10px;
+    background-color: white;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: "Grey Qo";
+    font-weight: bolder;
+    width: 100px;
+  }
+
+  .top-nav .one:hover {
+    background-color: rgb(44, 100, 132);
+    transform: scale(1.0);
+  }
+
+  .top-nav i {
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 100px;
+    justify-content: space-between;
+  }
+
+  .top-nav i:hover {
+    color: rgb(228, 121, 99);
+    transform: scale(1.0);
+  }
+
+  .top-nav .two {
+    padding: 5px 10px;
+    background-color: white;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-weight: bolder;
+  }
+
+  .top-nav .two:hover {
+  background-color: rgb(44, 100, 132);
+    transform: scale(1.0);
+  }
+
+  .search-container {
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: right;
+    padding: 15px 10px;
+    gap: 25px;
+  }
+
+  .search-container .search-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  .search-container .search-box input {
+    background-color: white;
+    padding: 5px 35px 5px 10px;
+    color: black;
+    border: none;
+    border-radius: 4px;
+  }
+
+  .search-container .search-box i {
+    position: absolute;
+    right: 10px;
+    color: black;
+    background-color: white;
+  }
+
+  .search-container .search-box i:hover {
+    color: rgb(44, 100, 132);
+    transform: scale(1.0);
+  }
+
+  .search-container a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .search-container a:hover {
+    color: rgb(20, 47, 63);
+    transform: scale(1.0);
+  }
+
+  .search-container button {
+    color: white;
+    background-color: rgb(44, 100, 132);
+    width: 90px;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+  .search-container button:hover {
+    color: rgb(20, 47, 63);
+    transform: scale(1.0);
+  }
+
+  .bannersection {
+    display: flex;
+    align-items: center;
+  }
+
+  .bannersection .col1,
+  .bannersection .col2 {
+    width: 49%;
+    align-items: center;
+    display: flex;
+  }
+
+  .bannersection .col1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 50px;
+    color: rgb(48, 109, 37)
+  }
+
+  .bannersection .col1 .title {
+    color: rgb(167, 214, 240);
+  }
+
+  .bannersection .col1 .title span {
+    color: rgb(198, 226, 146);
+  }
+  .bannersection .col1 .title span:hover{
+
+    color: rgb(67, 78, 46);
+  }
+
+  .bannersection .col1 .text {
+    color: rgb(104, 84, 84);
+  }
+  #aboutsection {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('assets/bu1.jpg');
+    background-size: cover;
+    background-position: center;
+   
+    color: white;                   
+    text-align: center;
+    min-height: 100vh; /* Ensures full height */
+    background-blend-mode: color;
+    background-color: rgba(5, 3, 3, 0.801);
+  
+  }
+  
+  #aboutsection h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px; 
+    color: rgb(110, 157, 237);                        
+  }
+  #aboutsection h1:hover{
+    color: rgb(8, 34, 78);
+
+  }
+  
+  #aboutsection p, #aboutsection ul {
+    font-size: 1.1rem;
+    max-width: 800px;
+    line-height: 1.6;
+    color: pink;
+  }
+  
+  #aboutsection ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #aboutsection ul li {
+    margin-bottom: 10px;
+    padding-left: 15px;
+    text-align: left;
+    position: relative;
+  }
+  
+  #aboutsection ul li::before {
+    content: "•";
+    color: #ff9900;
+    position: absolute;
+    left: 0;
+    font-size: 1.5rem;
+    line-height: 1.6;
+  }
+  #cards {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('assets/bu5.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-color: rgba(6, 6, 6, 0.6); /* Adjust transparency */
+    color: rgb(131, 107, 107);
+    text-align: center;
+    min-height: 100vh; /* Ensures full height */
+    background-blend-mode: color;
+    background-color: rgba(6, 6, 6, 0.801);
+  
+  }
+  #cards h1:hover{
+    color: rgb(79, 49, 49);
+  }
+
+  .cards-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.card {
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+.card img {
+    width:250px;
+    height:200px;
+    border-radius: 5px;
+}
+
+.card h3 {
+    margin: 10px 0;
+    font-size: 20px;
+}
+.card p {
+    font-size: 14px;
+    color: #555;
+}
+.card button {
+    padding: 10px 15px;
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.card button:hover { 
+  color: #e68a00;
+}
+
+
+  .footer {
+    color: black;
+    width: 100%;
+  }
+
